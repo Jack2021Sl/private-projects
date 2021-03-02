@@ -1,0 +1,88 @@
+.colordarkergrey{
+color:#242524;   
+}
+
+.colordarkblue{
+ color:#220dab;   
+}
+
+.colordarkviolet{
+color:#8c0fe0;
+}
+
+.colorrose{
+color:#D40647;    
+    
+}
+
+.colorbrightgreen{
+color:#10ff81; 
+}
+
+.backgrounddarkergrey{
+background-color:#242524;       
+}
+
+.backgrounddarkblue{
+background-color:#220dab;    
+}
+
+.backgrounddarkviolet{
+background-color:#8c0fe0;    
+}
+
+.backgroundlimebluegrad{
+background: rgb(11,223,202);
+background: linear-gradient(0deg, rgba(11,223,202,1) 50%, rgba(0,255,121,1) 55%);    
+}
+
+.backgroundpurplepinkgrad{
+background: rgb(34,193,195);
+background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(143,0,255,1) 86%);    
+}
+
+.colorbrokengradeasteregg{
+color: rgb(34,193,195);
+color: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(143,0,255,1) 86%);    
+}
+
+.backgroundrose{
+background-color:#D40647;    
+    
+}
+
+.colorwhite{
+color:white;    
+}
+
+.backgroundcolorwhite{
+    
+background-color:white; }
+
+.backgrondbrightgreen{
+background-color:#10ff81;    
+}
+
+.shapecircle{
+border-radius:90px;    
+width:57px;
+height:57px;    
+}
+
+.slidein{
+animation:4s slidein forwards;  
+animation-play-state:forwards;  
+}
+
+@keyframes slidein{
+from{
+transform:translateX(0px);
+}
+to{
+transform:translateX(20px); 
+}    
+}
+
+.center{
+margin-left:90px;    
+}
