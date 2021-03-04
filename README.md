@@ -1,4 +1,4 @@
-# Made By <a href=""> Jack! </a>
+# Made By <a href="https://github.com/Jack2021Sl/private-projects/blob/main/README.md#check-it-out-"> Jack! </a>
 
 <h1 style="color:red;"> Stylify.Css </h1>
 
