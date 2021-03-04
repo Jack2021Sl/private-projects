@@ -10,7 +10,7 @@
 > * Special Inputs & Animations!
 <h2>Check it out ↓</h2>
     
-<code>Link :</code>
+<code>Link : </code>
 
 
 
