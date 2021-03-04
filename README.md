@@ -12,9 +12,11 @@
 
 > * Special Inputs & Animations!
 <h2>Check it out ↓</h2>
-```html
-| To Use it just make any tag and put whatever the class of the function u want ex : class="cred" |
-```    
+<br>
+`
+| To use it just make any tag and put whatever the class of the function u want ex : class="cred" |
+`
+<br> 
 <code>*Link :* </code>
 
 
