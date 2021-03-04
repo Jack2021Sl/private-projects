@@ -1,4 +1,4 @@
-<h1>Stylify.Css</h1>
+<h1 class="styl">Stylify.Css</h1>
 
 > Hello This is Stylify.Css , An Amazing Library to ease most of ur css to html. 
 > 
@@ -7,3 +7,9 @@
 <h2>Check it out ↓</h2>
 
 <code>Link :</code>
+
+<style>
+.styl{
+color:rose;
+}
+</style>
