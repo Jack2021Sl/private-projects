@@ -5,7 +5,7 @@
 > Dont Believe Us? 
 > 
 <h2>Check it out ↓</h2>
-  <p style="color:rgba(255,0,0,0.5);"></p>
+  <p style="color:rgba(255,0,0,0.5);">.</p>
 <code>Link :</code>
 
 
