@@ -2,7 +2,7 @@
 
 > - Hello This is Stylify.Css , An Amazing Library to ease most of ur css to html. 
 > 
-> * Dont Believe Us? 
+<h3> Dont Believe Us? </h3>
 > 
 <h2>Check it out ↓</h2>
     
