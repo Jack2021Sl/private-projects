@@ -10,6 +10,6 @@
 
 <style>
 .styl{
-color:rose;
+color:red;
 }
 </style>
