@@ -1,0 +1,233 @@
+.cspecial-grey{
+color:#242524;   
+}
+
+.cdark-blue{
+ color:#220dab;   
+}
+
+.cdark-violet{
+color:#8c0fe0;
+}
+
+.crose{
+color:#D40647;    
+    
+}
+
+.cbright-rose{
+color:#Ff0048;        
+}
+
+.cwhite{
+color:white;    
+}
+
+.cbright-green{
+color:#10ff81; 
+}
+
+.colorbrokengradeasteregg{
+color: rgb(34,193,195);
+color: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(143,0,255,1) 86%);    
+}
+
+.caqua{
+color: rgb(0,255,223,1);
+}
+
+.cred{
+color:#Ff0004;    
+}
+
+.cturq{
+color:#07e9d5;    
+}
+
+.clime{
+color:#D6ff00;    
+}
+
+.corange{
+color:orange;    }
+
+.bspecial-grey{
+background-color:#242524;       
+}
+
+.bbright-rose{
+background-color:#Ff0048;        
+}
+
+.bred{
+background-color:#Ff0004;    
+}
+
+.bturq {
+background-color:#07e9d5;
+}
+ 
+.bdark-blue{
+background-color:#220dab;    
+}
+
+.bdark-violet{
+background-color:#8c0fe0;    
+}
+
+.blime{
+background-color:#D6ff00;    
+}
+
+.brose{
+background-color:#D40647;    
+    
+}
+
+
+.bwhite{
+    
+background-color:white; }
+
+
+.bbright-green{
+background-color:#10ff81;    
+}
+
+.baqua{
+background: rgb(0,255,223,1);
+}
+
+.borange{
+background-color:orange;    
+}
+
+.glimeblue{
+background: rgb(11,223,202);
+background: linear-gradient(0deg, rgba(11,223,202,1) 50%, rgba(0,255,121,1) 55%);    
+}
+
+.gpurplecy{
+background: rgb(34,193,195);
+background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(143,0,255,1) 86%);    
+}
+
+.gcyanpurple{
+background: rgb(131,58,180);
+background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(94,0,255,1) 50%, rgba(28,221,255,1) 100%);    
+}
+
+.shapecircle{
+border-radius:90px;    
+width:57px;
+height:57px;    
+}
+
+.shapecube{
+border-radius:7px;
+box-shadow:20px 30px 50px 10px;    
+}
+
+.slidein{
+animation:4s slidein forwards;  
+animation-play-state:forwards;  
+}
+
+@keyframes slidein{
+from{
+transform:translateX(0px);
+}
+to{
+transform:translateX(20px); 
+}    
+}
+
+
+.slidedown{
+animation:4s slidedowm forwards;  
+animation-play-state:forwards;  
+}
+
+@keyframes slidedowm{
+from{
+transform:translateY(0px);
+}
+to{
+transform:translateY(20px); 
+}    
+}
+
+.slideup{
+animation:4s slideup forwards;  
+animation-play-state:forwards;  
+}
+
+@keyframes slideup{
+from{
+transform:translateY(0px);
+}
+to{
+transform:translateY(-20px); 
+}    
+}
+
+.sbtn{
+border-radius:7px; 
+width:80px;   
+outline:none;
+border:none;
+animation:4s buttonmoving;
+transition:3s;
+}
+
+@keyframes buttonmoving{
+0%{
+opacity:0%;    
+}  
+50%{
+    
+} 
+100%{
+    
+} 
+}
+
+.sbtn:hover{
+box-shadow:6px 6px 6px 6px cyan;  
+transition:3s;  
+}
+
+
+
+.flicker{
+animation:2s flicker infinite;    
+}
+
+@keyframes flicker {
+0%{
+opacity:100%;    
+} 
+
+50%{
+opacity:50%;    
+} 
+
+70%{
+opacity:0%;    
+}
+
+100%{
+opacity:100%;    
+}  
+}
+
+.center{
+margin-left:90px;    
+}
+
+.special-input{
+border-radius:7px;  
+outline:none;  
+border:1.5px solid grey;
+caret-color:grey;
+}
