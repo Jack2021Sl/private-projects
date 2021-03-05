@@ -13,6 +13,10 @@
 > * Special Inputs & Animations!
 <h2>Check it out ↓</h2>
 
+**V1**
+<code> *Link :* </code>
+
+**V2**
 <code> *Link :* </code>
 
 
