@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html>
     <head>
    
@@ -599,7 +599,4 @@ width:200px;
 border-radius:12px; 
 }
 </style>
-   </center>
-  </center>
-    </body>
-</html>
+   
