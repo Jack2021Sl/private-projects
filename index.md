@@ -13,7 +13,7 @@
     <br />
     <div id="links">
     <h2 class="corange"><u>Links</u></h2>
-    <h1 class="solidcard bblue"><a href="" class="crose github">Github!</a></div>
+    <h1 class="solidcard bblue"><a href="" class="crose github">Github!</a>
     </h1>
     <br />
     <div id="colors">
