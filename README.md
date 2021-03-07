@@ -27,3 +27,5 @@
 > Promoting The Project 
 
 *********************************************************************/
+
+<h3> FAILING TO DO ANY OF THE ABOVE WILL GET YOU BLACKLISTED </h3>
