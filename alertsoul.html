@@ -1,0 +1,370 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+       
+       <script       src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+       
+    </head>
+    <body onload="hey()">
+      <center>
+  
+     <div id="alertboxlight" class="slideinx theblur">
+     <button onclick="hide6()" id="thebtnn1"> <b>True!</b></button>
+          
+             <button onclick="hide7()" id="thebtnnL"> <b>False!</b></button>
+          
+     
+     
+     <h2 class="centertitle title">Title</h2>
+    <h3 class="centerthis desc">Description!</h3>
+        <h3 class="extradesc">Extra Description!</h3>
+    <h2 id="lightx" onclick="hide8()">X</h2>
+     </div>
+       
+     
+     <div id="alertboxdark" class="slideiny theblur">
+     <button onclick="hide2()" id="thebtnn"> <b>True!</b></button>
+          
+             <button onclick="hide4()" id="thebtnnF"> <b>False!</b></button>
+          
+     
+     
+     <h2 class="centertitle title">Title</h2>
+    <h3 class="centerthis desc">Description!</h3>
+        <h3 class="extradesc">Extra Description!</h3>
+    <h2 id="darkx" onclick="hide3()">X</h2>
+     </div>
+       </center> 
+        
+        
+        
+        <script>alertsoul({
+            title: "Hi",
+            
+            desc: "hey",
+            
+            extradesc: "thanks!"
+        })</script>
+        
+        <script>
+            
+            
+function hey(){
+document.body.style.background="rgb(0,0,0,0.9)"
+         document.body.style.opacity="1"   
+ }        
+         
+
+
+function hide(){
+document.getElementById("alertboxlight").style.display="none";  
+
+
+document.body.style.background="rgb(0,0,0,1)"
+         document.body.style.opacity="1"   
+
+}
+
+$(function (){
+$("#thebtnnhiden").click(function (){
+$("#alertboxdark").slideToggle(500, hide2);
+});
+});
+
+$(function (){
+$("#thebtnnhiden").click(function (){
+$("#alertboxdark").slideToggle(500, hide2);
+});
+});
+
+function hide2(){
+document.getElementById("alertboxdark").style.display="none";  
+
+document.body.style.background="rgb(0,0,0,1)"
+         document.body.style.opacity="1"   
+}
+
+function hide3(){
+document.getElementById("alertboxdark").style.display="none";  
+
+document.body.style.background="rgb(0,0,0,1)"
+         document.body.style.opacity="1"   
+}
+
+function hide4(){
+document.getElementById("alertboxdark").style.display="none";  
+
+document.body.style.background="rgb(0,0,0,1)"
+         document.body.style.opacity="1"   
+
+}
+
+function hide6(){
+document.getElementById("alertboxlight").style.display="none";  
+
+document.body.style.background="rgb(0,0,0,1)"
+         document.body.style.opacity="1"   
+}
+
+function hide7(){
+document.getElementById("alertboxlight").style.display="none";  
+
+document.body.style.background="rgb(0,0,0,1)"
+         document.body.style.opacity="1"   
+}
+
+function hide8(){
+document.getElementById("alertboxlight").style.display="none";  
+
+document.body.style.background="rgb(0,0,0,1)"
+         document.body.style.opacity="1"   
+}
+
+function alertsoul(ob){
+if(ob.title!=undefined){
+document.querySelectorAll(".title").forEach(t => {
+    t.innerText = ob.title;
+})
+}
+
+if(ob.desc!=undefined){
+document.querySelectorAll(".desc").forEach(d => {
+    d.innerText = ob.desc;
+})
+}
+if(ob.extradesc!=undefined){
+document.querySelectorAll(".extradesc").forEach(e => {
+    e.innerText = ob.extradesc;
+})
+}
+}
+
+
+
+        </script>
+        
+        <style>
+            
+body {
+background-color:black;    
+}
+
+
+
+#thebackground{
+height:100%;    
+width:100%;
+background-size:100%;
+filter: blur(5px);
+}
+
+#thebtnn{
+border-radius:5px; 
+outline:none;  
+border:none; 
+background-color:#6812d0;
+height:30px;
+width:90px;
+margin-top:48%;
+margin-left:-20%;
+color:white;
+border-box:10px 10px 10px 10px #6812d0;
+
+}
+
+#thebtnnF{
+border-radius:5px; 
+outline:none;  
+border:none; 
+background-color:red;
+height:30px;
+width:90px;
+margin-top:48%;
+margin-right:-50%;
+color:white;
+border-box:10px 10px 10px 10px #6812d0;
+}
+
+#thebtnn1{
+border-radius:5px; 
+outline:none;  
+border:none; 
+background-color:#6812d0;
+height:30px;
+width:90px;
+margin-top:48%;
+margin-left:-20%;
+color:white;
+border-box:10px 10px 10px 10px #6812d0;
+}
+
+#thebtnnL{
+border-radius:5px; 
+outline:none;  
+border:none; 
+background-color:red;
+height:30px;
+width:90px;
+margin-top:48%;
+margin-right:-50%;
+color:white;
+border-box:10px 10px 10px 10px #6812d0;
+}
+
+
+
+
+#alertboxdark{
+background-color:rgb(23, 22, 22);  
+width:330px;
+height:200px;
+border-radius:12px;
+display:block;
+color:white;
+}
+
+#alertboxlight{
+background-color:white;  
+width:330px;
+height:200px;
+border-radius:12px;
+display:block;
+color:black;
+}
+
+
+
+.centertitle{
+margin-top:-50%;    
+}
+
+.centerthis{
+margin-top:-1%;    
+}
+
+
+#darkx{
+color:white; 
+border:none;   
+border-radius:6px;
+width:30px;
+height:30px;
+background-color:red;
+margin-top:-40%;
+margin-right:80%;
+}
+
+#lightx{
+color:black; 
+border:none;   
+border-radius:6px;
+width:30px;
+height:30px;
+background-color:red;
+margin-top:-40%;
+margin-right:80%;
+}
+
+
+.slideinx{
+animation:2s slideinx forwards;  
+animation-play-state:forwards;      
+}
+
+
+
+@keyframes slideinx{
+from{
+transform:translateX(-103px);
+opacity:0%;
+}
+to{
+transform:translateX(2px); 
+opacity:100%;
+}    
+}
+
+.slideiny{
+animation:1.5s slideiny forwards;  
+animation-play-state:forwards;      
+}
+
+@keyframes slideiny{
+
+0%{
+transform:translateY(-103px);    
+opacity:0%;  
+}   
+
+50%{
+opacity:50%; 
+transform: rotate(120deg);     
+}
+
+70%{
+opacity:60%;
+}
+
+100%{
+transform: rotate(0deg);    
+opacity:100%;      
+transform:translateY(180px); 
+} 
+
+}
+
+.getinspin{
+animation:4s getinspin forwards;  
+animation-play-state:forwards;     
+}
+
+@keyframes getinspin {
+100% { transform: rotate(360deg); }   
+50%{transform:rotate(120deg);}
+0% { transform: rotate(0deg); }
+}
+
+.getinspinT{
+animation:1s getinspinT forwards;  
+animation-play-state:forwards;     
+}
+
+@keyframes getinspinT {
+100% { transform: rotate(720deg); }   
+0% { transform: rotate(0deg); }
+}
+
+
+.fadein{
+animation:2s fadein forwards;    
+animation-play-state:forwards;  
+}
+
+@keyframes fadein{
+from{
+opacity:0%;    
+}
+
+to{
+opacity:100%;   
+}
+    
+}
+
+.extradesc{
+color:grey;    
+font-size:0.9em;
+}
+
+.desc{
+font-size:1.2em;    
+}
+
+.title{
+font-size:1.9em;    
+color:red;
+}
+        </style>
+    </body>
+</html>
